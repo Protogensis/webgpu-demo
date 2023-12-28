@@ -1,14 +1,22 @@
 <script setup lang="ts">
+import Myside from './components/Myside.vue';
+
 </script>
 
 <template>
-  <RouterLink to="/">Home</RouterLink>
-  <RouterLink to="/about">about</RouterLink>
-  <RouterView></RouterView>
+  <div class="container">
+    <Myside></Myside>
+    <RouterView class="view"></RouterView>
+  </div>
 </template>
 
 <style scoped>
-a{
-  margin: 20px;
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.view{
+  flex-grow: 1;
 }
 </style>
