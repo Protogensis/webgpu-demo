@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@webgpu/types": "^0.1.40",
-    "vue": "^3.3.11",
+    "vue": "^3.3.13",
     "vue-router": "4"
   },
   "devDependencies": {
