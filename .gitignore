@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # bun
-./bun.lockb
+bun.lockb
